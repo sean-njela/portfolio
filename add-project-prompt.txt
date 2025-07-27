@@ -1,0 +1,25 @@
+You are an expert technical writer. I need to add a project card to my portfolio CMS (Sanity). Please help me generate the content based on this structure.
+
+Here is the information about the project (example):
+
+- Project Name: Argo CD Production Demo
+- GitHub Repository URL: https://github.com/sean-njela/argocd-demo
+- Live Documentation or Demo Link: https://sean-njela.github.io/argocd-demo/
+- Category: DevOps
+- Technologies Used: Argo CD, Kubernetes, Docker, Helm, Terraform, GitHub Actions
+- Date Created: 2025-07-27 (yyyy-mm-dd)
+
+Using this, generate the following:
+
+1. **Name** – Use the provided name.
+2. **Image Alt Text** – A short, descriptive alt text (8–15 words) for an image of the project.
+3. **Description** – A compelling and concise project description (3–5 sentences). Include what the project does, the purpose, technologies used, and any standout features.
+4. **Repository** – Use the provided GitHub repo link.
+5. **Live Link** – Use the GitHub Pages link.
+6. **Category** – As provided.
+7. **Technologies** – Just list them.
+8. **Created At** – Use the provided date.
+
+Make sure the description is clear, engaging, and suitable for a portfolio aimed at developers and potential clients/employers.
+
+
