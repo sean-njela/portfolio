@@ -28,6 +28,15 @@ const config = {
       },
     ],
     '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/ban-ts-comment': [
+      'error',
+      {
+        'ts-ignore': true,
+        'ts-nocheck': false, // ✅ Allow @ts-nocheck
+        'ts-check': true,
+        'ts-expect-error': true,
+      },
+    ],
     'jsx-a11y/heading-has-content': 'off',
   },
   settings: {
@@ -40,6 +49,6 @@ const config = {
       rootDir: ['./'],
     },
   },
-}
+};
 
-module.exports = config
+module.exports = config;

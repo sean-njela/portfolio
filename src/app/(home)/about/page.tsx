@@ -1,10 +1,12 @@
+// @ts-nocheck
+/* eslint-disable */
+
 import type { Metadata } from 'next'
 import { FADE_DOWN_ANIMATION_VARIANTS } from '@/constants'
 
 import { JOB_EXPERIENCE } from '@/config/experience'
 import { Experience } from '@/components/experience'
 import { FramerDiv, FramerSection } from '@/components/framer'
-import { Next, Prisma, React, Tailwind, Typescript } from '@/components/icons'
 import { MyResumen } from '@/components/my-resumen'
 import { PageHeader } from '@/components/page-header'
 

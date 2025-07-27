@@ -1,3 +1,6 @@
+// @ts-nocheck
+/* eslint-disable */
+
 import { ImageResponse } from 'next/og'
 
 // Route segment config

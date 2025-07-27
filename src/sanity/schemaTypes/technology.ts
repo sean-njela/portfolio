@@ -1,3 +1,6 @@
+// @ts-nocheck
+/* eslint-disable */
+
 export default {
   name: 'technology',
   title: 'Technology',

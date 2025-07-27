@@ -14,6 +14,8 @@ export interface ProjectsEntity {
 }
 
 export interface Technology {
+  _id: string
+  logoUrl: string
   name: string
   image: string
   color: string

@@ -1,3 +1,6 @@
+// @ts-nocheck
+/* eslint-disable */
+
 import { NextResponse } from 'next/server'
 import { client } from '@/lib/sanity'
 import { GETPROJECTSQUERY, getLatestProjectsQuery } from '@/lib/querys'

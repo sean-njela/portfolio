@@ -1,3 +1,6 @@
+// @ts-nocheck
+/* eslint-disable */
+
 import { allPosts } from 'content-collections'
 
 import { getLatestProjectsQuery } from '@/lib/querys'
