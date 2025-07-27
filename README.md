@@ -1,6 +1,8 @@
-# Jorge Assaf Portfolio
+# Sean Njela (DevOpsSean) Portfolio
 
-[![Jorge Assaf](./public/images/screenshot/landing-page-screenshot.png)](https://jorgeassaf.vercel.app/)
+[![Sean Njela (DevOpsSean) Portfolio](./public/images/screenshot/landing-page-screenshot.png)](https://sean-njela.vercel.app/)
+
+Welcome to my portfolio! I'm Sean Njela, a DevOps Engineer based in Warsaw. I specialize in automating cloud infrastructure, building CI/CD pipelines, and improving deployment reliability with tools like Terraform, Kubernetes, and GitHub Actions.
 
 ## Tech Stack
 
