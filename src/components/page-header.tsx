@@ -4,6 +4,7 @@ import { FADE_DOWN_ANIMATION_VARIANTS } from '@/constants'
 import { m } from 'framer-motion'
 
 import { cn } from '@/lib/utils'
+import { Container } from './ui/container'
 
 interface HeaderProps extends React.HTMLAttributes<HTMLDivElement> {
   title: string
@@ -20,6 +21,7 @@ export const PageHeader = ({
   ...props
 }: HeaderProps) => {
   return (
+    <Container>
     <m.div
       initial='hidden'
       animate='show'
@@ -88,5 +90,6 @@ export const PageHeader = ({
         ) : null}
       </div>
     </m.div>
+    </Container>
   )
 }

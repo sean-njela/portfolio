@@ -9,6 +9,7 @@ import { client } from '@/lib/sanity'
 import CategoryButtons from '@/components/category-buttons'
 import { FramerDiv } from '@/components/framer'
 import { PageHeader } from '@/components/page-header'
+import { Container } from '@/components/ui/container'
 import Projects from '@/components/projects'
 
 export const dynamic = 'force-dynamic'
@@ -55,6 +56,7 @@ export default async function ProjectsPage({
         title='Projects'
         description='Here you can see my last projects'
       />
+      <Container>
       <div className='flex flex-col gap-10'>
         <FramerDiv
           variants={FADE_DOWN_ANIMATION_VARIANTS}
@@ -70,6 +72,7 @@ export default async function ProjectsPage({
         </FramerDiv>
         <Projects projects={projects} />
       </div>
+      </Container>
     </section>
   )
 }

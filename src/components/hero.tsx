@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils'
 import { GitHub, LinkedIn } from '@/components/icons'
 
 import { buttonVariants } from './ui/button'
+import { Container } from './ui/container'
 
 const HomeScene = dynamic(() => import('@/scenes/home-scene'), {
   ssr: false,
@@ -16,6 +17,7 @@ const HomeScene = dynamic(() => import('@/scenes/home-scene'), {
 
 const Hero = () => {
   return (
+    <Container>
     <m.div
       initial='hidden'
       animate='show'
@@ -28,7 +30,7 @@ const Hero = () => {
           },
         },
       }}
-      className='w-full py-16'
+      className='py-16'
     >
       <div className='flex flex-col justify-between gap-4 lg:flex-row lg:items-center'>
         <div className='space-y-2'>
@@ -101,6 +103,7 @@ const Hero = () => {
         </m.div>
       </div>
     </m.div>
+    </Container>
   )
 }
 

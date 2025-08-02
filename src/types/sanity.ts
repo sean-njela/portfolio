@@ -20,3 +20,17 @@ export interface Technology {
   image: string
   color: string
 }
+
+export interface BlogEntity {
+  image: {
+    url: string
+    alt: string
+  }
+  category: string
+  technologies: Technology[]
+  name: string
+  link: string
+  description: string
+  _id: string
+  createdAt: Date
+}

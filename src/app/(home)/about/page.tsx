@@ -9,6 +9,7 @@ import { Experience } from '@/components/experience'
 import { FramerDiv, FramerSection } from '@/components/framer'
 import { MyResumen } from '@/components/my-resumen'
 import { PageHeader } from '@/components/page-header'
+import { Container } from '@/components/ui/container'
 
 export const metadata: Metadata = {
   title: 'About me',
@@ -20,6 +21,7 @@ export default function AboutPage() {
   return (
     <>
       <PageHeader title='About me' page />
+      <Container>
       <FramerSection
         initial='hidden'
         animate='show'
@@ -89,6 +91,7 @@ export default function AboutPage() {
           </div>
         </FramerDiv>
       </FramerSection>
+      </Container>
     </>
   )
 }

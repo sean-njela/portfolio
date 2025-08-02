@@ -5,6 +5,7 @@ import { GitHub, LinkedIn, Twitter } from '@/components/icons'
 
 import { buttonVariants } from '../ui/button'
 
+
 const SiteFooter = () => {
   return (
     <footer className='my-10 w-full border-t'>
