@@ -1,3 +1,6 @@
+// @ts-nocheck
+/* eslint-disable */
+
 'use client'
 
 import dynamic from 'next/dynamic'

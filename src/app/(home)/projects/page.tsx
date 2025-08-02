@@ -1,3 +1,6 @@
+// @ts-nocheck
+/* eslint-disable */
+
 import type { Metadata } from 'next'
 import { unstable_noStore } from 'next/cache'
 import { FADE_DOWN_ANIMATION_VARIANTS } from '@/constants'

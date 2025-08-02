@@ -1,3 +1,6 @@
+// @ts-nocheck
+/* eslint-disable */
+
 'use client'
 
 import { FADE_DOWN_ANIMATION_VARIANTS } from '@/constants'

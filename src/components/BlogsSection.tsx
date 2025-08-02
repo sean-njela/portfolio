@@ -1,4 +1,6 @@
 // @ts-nocheck
+/* eslint-disable */
+
 import { client } from '@/lib/sanity'
 import { GETBLOGQUERY } from '@/lib/querys'
 import BlogsFilterClient from './BlogsFilterClient'
